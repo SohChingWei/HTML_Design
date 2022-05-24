@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Currency Exchange</title>
+<style type="text/css">
+body {
+	background-color: #F93;
+}
+</style>
+</head>
+
+<script>
+function MouseClick(){
+	
+var us_dollar = 0.26;
+var rm_value = document.getElementById("rm").value;
+var us_dollar_output = rm_value*us_dollar;
+
+document.getElementById("us_dollar").value = us_dollar_output;
+
+var singapore_dollar = 0.34;
+var rm_value = document.getElementById("rm").value;
+var singapore_dollar_output = rm_value*singapore_dollar;
+
+document.getElementById("singapore_dollar").value = singapore_dollar_output;
+
+var euro = 0.34;
+var rm_value = document.getElementById("rm").value;
+var euro_output = rm_value*euro;
+
+document.getElementById("euro").value = euro_output;
+
+var japanese_yen = 28.01;
+var rm_value = document.getElementById("rm").value;
+var japanese_yen_output = rm_value*japanese_yen;
+
+document.getElementById("japanese_yen").value = japanese_yen_output;
+
+var russian_ruble = 14.41;
+var rm_value = document.getElementById("rm").value;
+var russian_ruble_output = rm_value*russian_ruble;
+
+document.getElementById("russian_ruble").value = russian_ruble_output;
+
+var british_pound = 0.18;
+var rm_value = document.getElementById("rm").value;
+var british_pound_output = rm_value*british_pound;
+
+document.getElementById("british_pound").value = british_pound_output;
+}
+</script>
+
+<h2><center>EXCHANGE CURRENCY</center></h2>
+<h1><center>*******************************</center></h1>
+<center><img src="Image/malaysian.png" width="200" height="100" alt="Malaysian Flag" /></center>
+<h2><center>Ringgit Malaysia: <input id="rm" type="text" /></center></h2>
+<h1><center>*******************************</center></h1>
+<center><img src="Image/american.png" width="200" height="100" alt="American Flag" /></center>
+<h3><center>US DOLLAR: <input id="us_dollar" type="text" /></center></h3>
+<center><img src="Image/singaporean.png" width="200" height="100" alt="Singapore Flag" /></center>
+<h3><center>SINGAPORE DOLLAR: <input id="singapore_dollar" type="text" /></center></h3>
+<center><img src="Image/euro.png" width="200" height="100" alt="Euro Flag" /></center>
+<h3><center>EURO: <input id="euro" type="text" /></center></h3>
+<center><img src="Image/japanese.png" width="200" height="100" alt="Japanese Flag" /></center>
+<h3><center>JAPANESE YEN: <input id="japanese_yen" type="text" /></center></h3>
+<center><img src="Image/russian.png" width="200" height="100" alt="Russian Flag" /></center>
+<h3><center>RUSSIAN RUBLE: <input id="russian_ruble" type="text" /></center></h3>
+<center><img src="Image/british.png" width="200" height="100" alt="British Flag" /></center>
+<h3><center>BRITISH POUND: <input id="british_pound" type="text" /></center></h3>
+<center><button type="button" onclick="MouseClick()"> CALCULATE</button></center>
+<body>
+</body>
+</html>
